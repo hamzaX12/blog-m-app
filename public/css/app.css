@@ -1,0 +1,11 @@
+.form-inline {
+    display: inline !important;
+}
+.badge > a {
+    color: white;
+}
+.avatar {
+    width: 128;
+    height: 128;
+}
+

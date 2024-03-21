@@ -1,0 +1,8 @@
+<?php
+      
+return [
+
+    'welcom' => 'welcome to bright coding ',
+    'example_with_value' => 'hello :name ',
+    'plural' => '{0} no comments |{1} 1 comment |[2,*] :count comments'
+];

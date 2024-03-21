@@ -1,0 +1,57 @@
+body{
+    background-color: #af904c;
+}
+.step-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+    /* background-color: black; */
+}
+
+.step {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.step.current {
+    display: block;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.prev {
+    margin-right: 10px;
+}
+
+.submit {
+    background-color: #4caf50;
+    color: white;
+}
+
+.submit:hover {
+    background-color: #45a049;
+}

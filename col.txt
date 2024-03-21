@@ -1,0 +1,6 @@
+//to create a foreign key
+$table->foreign('user_id')->references('id')->on('users');
+//to drop foreign key
+$table->dropForeign('user_id');
+
+youtube_stady
